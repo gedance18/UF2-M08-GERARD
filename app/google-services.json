@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "292898807115",
+    "project_id": "uf2socialpuig",
+    "storage_bucket": "uf2socialpuig.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292898807115:android:50256d89b49d8311315cce",
+        "android_client_info": {
+          "package_name": "com.example.uf2_m08"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292898807115-8fqdigh9jf1laike0g0tpp6b3j4n48pi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uf2_m08",
+            "certificate_hash": "bb6e8f302f7b7cde712ec82590b40c363584bcc1"
+          }
+        },
+        {
+          "client_id": "292898807115-0eoabvc3m84ntp7rin7l262b6aqrvgjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4HLXcOI70CNqJYFMlxGDlOmbtKyRltHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292898807115-0eoabvc3m84ntp7rin7l262b6aqrvgjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
