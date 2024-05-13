@@ -94,8 +94,13 @@ public class RegisterFragment extends Fragment {
     private boolean validarFormulario() {
         boolean valid = true;
 
-        if (TextUtils.isEmpty(emailEditText.getText().toString())) {
+        String email = emailEditText.getText().toString().trim();
+
+        if (TextUtils.isEmpty(email)) {
             emailEditText.setError("Required.");
+            valid = false;
+        } else if (!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+            emailEditText.setError("Invalid email address.");
             valid = false;
         } else {
             emailEditText.setError(null);

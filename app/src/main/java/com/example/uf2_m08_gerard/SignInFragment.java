@@ -66,7 +66,14 @@ public class SignInFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-
+        navController = Navigation.findNavController(view);
+        emailEditText = view.findViewById(R.id.emailEditText);
+        passwordEditText = view.findViewById(R.id.passwordEditText);
+        emailSignInButton = view.findViewById(R.id.emailSignInButton);
+        signInForm = view.findViewById(R.id.signInForm);
+        signInProgressBar = view.findViewById(R.id.signInProgressBar);
+        mAuth = FirebaseAuth.getInstance();
+        googleSignInButton = view.findViewById(R.id.googleSignInButton);
 
         activityResultLauncher = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
